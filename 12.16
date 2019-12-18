@@ -1,8 +1,10 @@
 
 let food = ["Sandwich","Banana","Apple","!"];
-
+console.log(food)
 function arrayconverter (array1){
+
     display = array1.toString();
+    display = display.replace(/,/g,' ');
     console.log(display);
 
 }
