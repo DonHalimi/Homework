@@ -1,0 +1,10 @@
+
+let food = ["Sandwich","Banana","Apple","!"];
+
+function arrayconverter (array1){
+    display = array1.toString();
+    console.log(display);
+
+}
+
+arrayconverter(food);
